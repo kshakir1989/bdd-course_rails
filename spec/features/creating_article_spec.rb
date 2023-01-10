@@ -5,8 +5,8 @@ RSpec.featrue "Create Articles" do
         visit "/" # Go to root
         click_link "New Article" # Go to new article link 
         
-        fill_in "Title" with: "Creating a blog" # Fill in the title field with "Creating a blog"
-        fill_in "Body" with: "Body text here" # Fill in the body aread with text
+        fill_in "Title", with: "Creating a blog" # Fill in the title field with "Creating a blog"
+        fill_in "Body", with: "Body text here" # Fill in the body aread with text
 
         click_button "Create Article" # Click create article button 
 
